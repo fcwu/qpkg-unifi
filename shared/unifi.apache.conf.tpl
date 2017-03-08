@@ -1,2 +1,2 @@
 ProxyPass /unifi/ !
-RedirectMatch 301 ^/unifi/(.*)$ http://{{IPV4ADDR}}:8080/$1
+RedirectMatch 302 ^/unifi/(.*)$ http://{{IPV4ADDR}}:8080/$1
